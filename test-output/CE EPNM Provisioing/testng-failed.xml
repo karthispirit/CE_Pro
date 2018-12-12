@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CE EPNM Provisioing]">
+  <test name="CE EPNM Provisioing test cases(failed)">
+    <classes>
+      <class name="epnm.CE.Provisioning.test.Epnm_Loginpage_Test">
+        <methods>
+          <include name="create_evpl_test"/>
+          <include name="closebrowser"/>
+          <include name="setup"/>
+          <include name="Service_page_test"/>
+        </methods>
+      </class> <!-- epnm.CE.Provisioning.test.Epnm_Loginpage_Test -->
+    </classes>
+  </test> <!-- CE EPNM Provisioing test cases(failed) -->
+</suite> <!-- Failed suite [CE EPNM Provisioing] -->
